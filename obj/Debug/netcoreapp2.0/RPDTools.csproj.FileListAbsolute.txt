@@ -8,4 +8,3 @@ C:\Andrey\WebApps\RPDTools\RPDTools\obj\Debug\netcoreapp2.0\RPDTools.AssemblyInf
 C:\Andrey\WebApps\RPDTools\RPDTools\obj\Debug\netcoreapp2.0\RPDTools.AssemblyInfo.cs
 C:\Andrey\WebApps\RPDTools\RPDTools\obj\Debug\netcoreapp2.0\RPDTools.dll
 C:\Andrey\WebApps\RPDTools\RPDTools\obj\Debug\netcoreapp2.0\RPDTools.pdb
-C:\Andrey\WebApps\RPDTools\RPDTools\obj\Debug\netcoreapp2.0\RPDTools.csprojResolveAssemblyReference.cache

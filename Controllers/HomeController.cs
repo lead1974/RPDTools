@@ -47,7 +47,6 @@ namespace RPDTools.Controllers
                             file.CopyTo(fileStream);
                         }
                     }
-                    //var fileName = orig_fileName.Replace(@"\\", @"\");
                     var pfileName = string.Format("-f {0}", Path.Combine(uploads, fileName)); //.Replace(@"\", "/");
                     var python_params = pfileName;
                     var res = new RunPython().Run(Path.GetFullPath("Python/obiee_rpd_upload.py"), python_params);
