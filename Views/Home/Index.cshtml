@@ -1,0 +1,62 @@
+﻿@using Microsoft.Extensions.Configuration;
+@inject IConfiguration configuration;
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div id="example">
+    <div class="box">
+        <h4>Information</h4>
+        <p>
+            The Upload can be used as a drop-in replacement
+            for file input elements. This "synchronous" mode does not require
+            special handling on the server.
+        </p>
+    </div>
+    <form id="upload" method="post" action="http://dvbi03.venturafoods.com:9502/bi-lcm/v1/si/ssi/rpd/uploadrpd" enctype="multipart/form-data">
+        <div class="demo-section k-content">
+            <input name="files" id="files" type="file" aria-label="files" multiple /><br />
+            <p style="padding-top: 1em; text-align: right">
+                <button type="submit" class="k-button k-primary" id="btnUpload" asp-controller="Home" asp-action="Upload">Upload</button>
+            </p>
+        </div>
+        <br />
+        <div id="response">@ViewBag.Result</div>
+    </form>
+    <script>
+        $(document).ready(function () {
+            $("#files").kendoUpload(
+                {
+                    //async: {
+
+                    //    saveUrl: "~/uploadRPD",
+                    //    autoUpload: true
+                    //},
+                    validation: {
+                        /**/
+                        allowedExtensions: [".rpd"]
+/**/
+                }
+}
+);
+
+//$("#upload").on('submit', function (e) {
+//    $('#btnUpload').prop('disabled', true);
+//    $('#btnUpload').prop('value', 'Uploading RPD, please wait...');
+//    e.preventDefault();
+//    $.ajax({
+//        url: $(this).attr('action'),
+//        withCredentials: true,
+//        type: 'POST',
+//        data: new FormData(this),
+//        processData: false,
+//        contentType: false,
+//        dataFilter: function (data, type) { $("#response").html(JSON.parse(data).properties.entry[1].value.value); $("#response").append('<details>' + data + '</details>'); $('#btnUpload').prop('disabled', false); $('#btnUpload').prop('value', 'Upload'); }
+//    });
+//});
+
+});
+    </script>
+</div>
+

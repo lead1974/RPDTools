@@ -1,0 +1,11 @@
+C:\Andrey\WebApps\RPDTools\RPDTools\bin\Debug\netcoreapp2.0\RPDTools.deps.json
+C:\Andrey\WebApps\RPDTools\RPDTools\bin\Debug\netcoreapp2.0\RPDTools.runtimeconfig.json
+C:\Andrey\WebApps\RPDTools\RPDTools\bin\Debug\netcoreapp2.0\RPDTools.runtimeconfig.dev.json
+C:\Andrey\WebApps\RPDTools\RPDTools\bin\Debug\netcoreapp2.0\RPDTools.dll
+C:\Andrey\WebApps\RPDTools\RPDTools\bin\Debug\netcoreapp2.0\RPDTools.pdb
+C:\Andrey\WebApps\RPDTools\RPDTools\obj\Debug\netcoreapp2.0\RPDTools.csproj.CoreCompileInputs.cache
+C:\Andrey\WebApps\RPDTools\RPDTools\obj\Debug\netcoreapp2.0\RPDTools.AssemblyInfoInputs.cache
+C:\Andrey\WebApps\RPDTools\RPDTools\obj\Debug\netcoreapp2.0\RPDTools.AssemblyInfo.cs
+C:\Andrey\WebApps\RPDTools\RPDTools\obj\Debug\netcoreapp2.0\RPDTools.dll
+C:\Andrey\WebApps\RPDTools\RPDTools\obj\Debug\netcoreapp2.0\RPDTools.pdb
+C:\Andrey\WebApps\RPDTools\RPDTools\obj\Debug\netcoreapp2.0\RPDTools.csprojResolveAssemblyReference.cache
